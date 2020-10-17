@@ -17,6 +17,7 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // Code from pusher
     const pusher = new Pusher('65a2f2cf650eaad2bc0c', {
       cluster: 'us3'
     });
@@ -43,7 +44,7 @@ function App() {
     <div className="app">
       <div className="app__body">
         <Sidebar />
-        <Chat />
+        <Chat messages={messages}/>
       </div>
 
     </div>
