@@ -84,6 +84,8 @@
     /* makes typing section larger */
     padding: 10px;
     border: none;
+    /* gets rid of blue hover input */
+    outline-width: 0;
 }
 
 .chat__footer > form > button {
